@@ -22,6 +22,7 @@
 		52B2670E191A16D200822128 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B2670C191A16D200822128 /* InfoPlist.strings */; };
 		52B26710191A16D200822128 /* StackExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2670F191A16D200822128 /* StackExampleTests.m */; };
 		52B2671B191A177D00822128 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2671A191A177D00822128 /* TestCell.m */; };
+		52B2671D191A2F4C00822128 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B2671C191A2F4C00822128 /* TestView.xib */; };
 		CCB90BECDD2641038D0E14CB /* libPods-StackExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C65ECAB9248CAACAD2FAA /* libPods-StackExample.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		52B2670F191A16D200822128 /* StackExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackExampleTests.m; sourceTree = "<group>"; };
 		52B26719191A177D00822128 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
 		52B2671A191A177D00822128 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		52B2671C191A2F4C00822128 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		66797F7C12D2403BBD5A265F /* Pods-StackExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackExample.xcconfig"; path = "Pods/Pods-StackExample.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				52B266EB191A16D200822128 /* Supporting Files */,
 				52B26719191A177D00822128 /* TestCell.h */,
 				52B2671A191A177D00822128 /* TestCell.m */,
+				52B2671C191A2F4C00822128 /* TestView.xib */,
 			);
 			path = StackExample;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B2671D191A2F4C00822128 /* TestView.xib in Resources */,
 				52B266FD191A16D200822128 /* Images.xcassets in Resources */,
 				52B266EF191A16D200822128 /* InfoPlist.strings in Resources */,
 				52B266F8191A16D200822128 /* Main.storyboard in Resources */,

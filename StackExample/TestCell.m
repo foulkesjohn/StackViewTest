@@ -1,5 +1,6 @@
 #import "TestCell.h"
 #import <ORStackView/ORStackView.h>
+#import <FLKAutoLayout/UIView+FLKAutoLayout.h>
 
 @implementation TestCell
 
@@ -7,16 +8,15 @@
 {
   ORStackView *stackView = [[ORStackView alloc] init];
   
-  UILabel *labelOne = [[UILabel alloc] init];
-  labelOne.text = @"One";
+  UINib *nib = [UINib nibWithNibName:@"TestView" bundle:[NSBundle mainBundle]];
   
-  UILabel *labelTwo = [[UILabel alloc] init];
-  labelOne.text = @"Two";
-  
-  [stackView addSubview:labelOne withTopMargin:@"10"];
-  [stackView addSubview:labelTwo withTopMargin:@"20"];
+  for (NSInteger i = 0; i < 3; i++) {
+    UIView *view = [nib instantiateWithOwner:self options:nil][0];
+    [stackView addSubview:view withTopMargin:@"10" sideMargin:@"10"];
+  }
   
   [self.contentView addSubview:stackView];
+  [stackView alignToView:self.contentView];
 }
 
 @end
