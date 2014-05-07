@@ -1,0 +1,13 @@
+PODS:
+  - FLKAutoLayout (0.1.1)
+  - ORStackView (1.1.0):
+    - FLKAutoLayout (~> 0.1)
+
+DEPENDENCIES:
+  - ORStackView
+
+SPEC CHECKSUMS:
+  FLKAutoLayout: fc04b932009174d4118ef4bda9dc8fedf1369efc
+  ORStackView: 974852335f3f3b06d1ad27513f407d3a443f127c
+
+COCOAPODS: 0.32.1
